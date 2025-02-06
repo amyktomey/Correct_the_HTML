@@ -44,10 +44,16 @@ article {
     flex-direction: column;
 }
 
-.title {
+h1 {
     align-self: center;
     padding: 0.25rem;
     margin: 0.25rem;
+}
+
+h2 {
+    align-self: center;
+    padding: 0.20rem;
+    margin: 0.20rem;
 }
 
 paragraph {
