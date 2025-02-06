@@ -15,7 +15,7 @@ body {
     color: var(--bark-brown);
 }
 
-.header {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,13 +25,13 @@ body {
     min-height: 5dvh;
 }
 
-.image-container {
+figure {
     max-height: 100%;
     display: flex;
     justify-content: center;
 }
 
-.main {
+main {
     display: flex;
     flex-direction: column;
     padding: 1rem;
@@ -39,7 +39,7 @@ body {
     color: white;
 }
 
-.post-article {
+article {
     display: flex;
     flex-direction: column;
 }
@@ -50,11 +50,11 @@ body {
     margin: 0.25rem;
 }
 
-.paragraph {
+paragraph {
     padding: 0.5rem;
 }
 
-.footer {
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
